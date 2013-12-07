@@ -1,0 +1,45 @@
+User Story
+--------------------
+As a tax collector
+I want to read in employee data
+so that I can calculate who owes and who gets refunds
+
+Acceptance Criteria
++Need an employee data file
++Read in data into a program
++Need to know each employees first and last name, annual income, tax paid, and tax rate
+
+
+Employee_spec
+  read in CSV_file
+  first_name 
+  last_name
+  annual_income
+  tax_paid
+  tax_rate
+Tax_calculatr_spec
+  one person
+  taxes_owed
+  liability (Class Method) => also receives an instance of an Employee class
+  refund_is_due
+Liability_spec
+  Employee
+  Amount_due
+  amount_owed
+  
+Employee
+  read in CSV_file
+  first_name 
+  last_name
+  annual_income
+  tax_paid
+  tax_rate
+Tax_calculatr
+  one person
+  taxes_owed
+  liability (Class Method) => also receives an instance of an Employee class
+  refund_is_due
+Liability
+  Employee
+  Amount_due
+  amount_owed  
